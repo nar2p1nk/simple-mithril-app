@@ -7,7 +7,7 @@
     "simpleapp": "bin/app.js"
   },
   "scripts": {
-    "start": "webpack ./src/index.js -o ./bin/ --watch",
+    "start": "webpack ./src/index.js -o ./bin/ -d eval --watch --mode=development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
